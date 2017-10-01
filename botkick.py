@@ -130,7 +130,7 @@ def SEND_MESSAGE(op):
                     print "ok"
                     _name = msg.text.replace("Mulai","")
                     gs = client.getGroup(msg.to)
-                    sendMessage(msg.to,"Halooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
+                    sendMessage(msg.to,"Dimana")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
@@ -147,7 +147,7 @@ def SEND_MESSAGE(op):
                             except:
                                 sendText(msg.to,"error")
 #-------------------------------------------------------------			
-		if msg.text == "Salken all":
+		if msg.text == "Woi":
                     start = time.time()
                     sendMessage(msg.to, "hehehe")
                     elapsed_time = time.time() - start
